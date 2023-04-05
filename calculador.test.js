@@ -35,3 +35,15 @@ describe('divide', () => {
         expect(calculador.divide(5, 2)).toBe(2.5);
     });
 });
+
+describe('multiply', () => {
+    test('6 * 3 = 18', () => {
+        expect(calculador.multiply(6, 3)).toBe(18);
+    });
+    test('8 * 4 = 32', () => {
+        expect(calculador.multiply(8, 4)).toBe(32);
+    });
+    test('5 * 2 = 10', () => {
+        expect(calculador.multiply(5, 2)).toBe(10);
+    });
+});
