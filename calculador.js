@@ -1,18 +1,17 @@
 class Calculator {
-    constructor(numOne, numTwo) {
-      this.num1 = numOne;
-      this.num2 = numTwo;
+    add(a, b) {
+      return a + b;
     }
 
-    add() {
-        return this.num1 + this.num2;
+    subtract(a, b) {
+      return a - b;
     }
 
-    subtract() {
-        return this.num1 - this.num2;
+    divide(a, b) {
+      return a / b;
     }
-  }
+}
 
-  const peugeot = new Car(11, 9);
+const calculador = new Calculator();
 
-  console.log(peugeot.subtract());
+module.exports = calculador;
